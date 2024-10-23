@@ -1,0 +1,20 @@
+{
+  "name": "mathewgeraldo/belajar-php-composer-hello",
+  "description": "Library Hello",
+  "version": "1.0.0",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Mager\\Belajar\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mathew Geraldo Pedro Rottye",
+      "email": "mathewgeraldo69@gmail.com"
+    }
+  ],
+  "require": {
+    "php" : ">=8.0"
+  }
+}
