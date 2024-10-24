@@ -10,4 +10,9 @@ class Costumer
     {
         return "Hello {$name}, my name is $this->name";
     }
+
+    public function sayBye(string $name): string
+    {
+        return "Bye {$name}";
+    }
 }
